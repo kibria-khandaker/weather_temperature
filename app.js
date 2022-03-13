@@ -7,9 +7,9 @@ const searchTemp=()=>{
     getCityNameText.value = '';
     fetch(url)
     .then(res=>res.json())
-    .then(data=>( data.cod===200 ? displayTemp(data) : alert('Enter your city name')));
+    .then(data=>displayTemp(data))
 }
-
+// .then(data=>( data.cod===200 ? displayTemp(data) : alert('Enter your city name')));
 const getDivIdAndSetValue =(id, dataValue)=>{
     document.getElementById(id).innerText = dataValue;
 }
