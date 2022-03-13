@@ -1,4 +1,4 @@
-const API_KEY = `4b9a4da9eb160f3b87a92409fee266ed`;
+const API_KEY = `1baa8d0a34e0b10b97427734adc48def`;
 
 const searchTemp=()=>{
     const getCityNameText = document.getElementById('city_name_input_field');
